@@ -24,9 +24,10 @@ phan_so::phan_so() {
 	tu_so = 0;
 	mau_so = 1; 
 }
-phan_so phan_so::nhan(phan_so ps){
+phan_so phan_so::operator*(phan_so ps){
 	phan_so kq;
 	kq.tu_so = tu_so * ps.tu_so;
 	kq.mau_so = mau_so * ps.mau_so;
 	return kq;
 }
+

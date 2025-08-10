@@ -16,7 +16,7 @@ public:
     int mau_so;
 
     phan_so();
-    phan_so nhan(phan_so ps);
+    phan_so operator*(phan_so ps);
       
 };
 

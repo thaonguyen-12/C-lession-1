@@ -21,8 +21,9 @@ int main()
     ps2.tu_so = 4;
     ps2.mau_so = 5;
 
-    phan_so kq = ps1.nhan(ps2);
-       cout << kq.tu_so << "/" << kq.mau_so << endl;
+    phan_so kq = ps1.operator*(ps2);
+    kq = ps1 * ps2;
+    cout << kq.tu_so << "/" << kq.mau_so << endl;
 
     return 0;
 
