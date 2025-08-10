@@ -6,5 +6,5 @@ public:
 
     int dien_tich();
     int chu_vi();
-   
+    hinh_chu_nhat_c();
 };
