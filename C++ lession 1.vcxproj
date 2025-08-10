@@ -124,6 +124,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C++ lession 1.cpp" />
+    <ClCompile Include="hinh_hoc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hinh_hoc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

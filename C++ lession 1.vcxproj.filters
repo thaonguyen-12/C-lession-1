@@ -18,5 +18,13 @@
     <ClCompile Include="C++ lession 1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="hinh_hoc.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hinh_hoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
