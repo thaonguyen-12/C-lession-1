@@ -12,6 +12,20 @@ int main()
     int y = A.chu_vi();
     cout << "Dien tich: " << x << endl;
     cout << "Chu vi:" << y << endl; 
+
+    phan_so ps1;
+    ps1.tu_so = 2;
+    ps1.mau_so = 3;
+
+    phan_so ps2;
+    ps2.tu_so = 4;
+    ps2.mau_so = 5;
+
+    phan_so kq = ps1.nhan(ps2);
+       cout << kq.tu_so << "/" << kq.mau_so << endl;
+
     return 0;
+
+
 }
 
