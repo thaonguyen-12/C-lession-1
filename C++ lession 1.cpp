@@ -1,5 +1,3 @@
-#include <iostream>
-using namespace std;
 
 struct hinh_chu_nhat_s
 {
@@ -28,7 +26,6 @@ int main()
     B.dai = 10; 
     B.rong = 20; 
     int x = B.dien_tich();
-    cout << "Dien tich: "<<  x << endl; 
     return 0;
 }
 
