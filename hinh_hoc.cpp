@@ -30,4 +30,9 @@ phan_so phan_so::operator*(phan_so ps){
 	kq.mau_so = mau_so * ps.mau_so;
 	return kq;
 }
+phan_so::phan_so(int _tu, int _mau) {
+	tu_so = _tu;
+	mau_so = _mau;
+
+}
 

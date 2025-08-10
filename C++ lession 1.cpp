@@ -21,12 +21,16 @@ int main()
     ps2.tu_so = 4;
     ps2.mau_so = 5;
 
-    phan_so kq = ps1.operator*(ps2);
+    // phan_so kq = ps1.operator*(ps2);
+  /*  phan_so kq;
     kq = ps1 * ps2;
-    cout << kq.tu_so << "/" << kq.mau_so << endl;
+    cout << kq.tu_so << "/" << kq.mau_so << endl;*/
 
+    phan_so A;
+    phan_so B(1, 2);
+    cout << "Phan so B: " << B.tu_so << "/" << B.mau_so << endl;
     return 0;
-
+    
 
 }
 

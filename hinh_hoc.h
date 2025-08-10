@@ -17,6 +17,6 @@ public:
 
     phan_so();
     phan_so operator*(phan_so ps);
-      
+    phan_so(int _tu, int _mau);
 };
 
